@@ -1,3 +1,3 @@
 <div class="footer-left">
-    Diseñaro por Erik Corral y Alejandro Caballero; {{ date('Y') }}
+    Diseñaro por Erik Corral González. {{ date('Y') }}
 </div>
