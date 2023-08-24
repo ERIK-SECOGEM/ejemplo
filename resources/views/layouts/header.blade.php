@@ -10,12 +10,13 @@
             <a href="#" data-toggle="dropdown"
                class="nav-link dropdown-toggle nav-link-lg nav-link-user">
                 <div class="d-sm-none d-lg-inline-block">
-                    Hola, {{\Illuminate\Support\Facades\Auth::user()->first_name}}</div>
+                    Bienvenido
+                </div>
             </a>
 
             <div class="dropdown-menu dropdown-menu-right">
                 <div class="dropdown-title">
-                    Bienvenido, {{\Illuminate\Support\Facades\Auth::user()->name}}</div>
+                    {{\Illuminate\Support\Facades\Auth::user()->name}}</div>
                 <a class="dropdown-item has-icon" data-toggle="modal" data-target="#changePasswordModal" href="#" data-id="{{ \Auth::id() }}"><i
                             class="fa fa-lock"> </i>Cambiar contraseña</a>
                 <a href="{{ url('logout') }}" class="dropdown-item has-icon text-danger"
